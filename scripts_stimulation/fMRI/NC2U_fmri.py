@@ -190,7 +190,7 @@ while continueRoutine:
         # keyboard checking is just starting
         event.clearEvents(eventType='keyboard')
     if exp_start.status == STARTED:
-        theseKeys = event.getKeys(keyList=['6'])
+        theseKeys = event.getKeys(keyList=['y'])
         
         # check for quit:
         if "escape" in theseKeys:
@@ -478,7 +478,7 @@ for thisRun in runs:
             # keyboard checking is just starting
             event.clearEvents(eventType='keyboard')
         if run_start_trigger_key.status == STARTED:
-            theseKeys = event.getKeys(keyList=['6'])
+            theseKeys = event.getKeys(keyList=['y'])
             
             # check for quit:
             if "escape" in theseKeys:
@@ -766,7 +766,7 @@ for thisRun in runs:
            # keyboard checking is just starting
            event.clearEvents(eventType='keyboard')
         if exp_break.status == STARTED:
-            theseKeys = event.getKeys(keyList=['6'])
+            theseKeys = event.getKeys(keyList=['y'])
         
             # check for quit:
             if "escape" in theseKeys:
@@ -846,7 +846,7 @@ while continueRoutine:
         # keyboard checking is just starting
         event.clearEvents(eventType='keyboard')
     if end_keys.status == STARTED:
-        theseKeys = event.getKeys(keyList=['6'])
+        theseKeys = event.getKeys(keyList=['y'])
         
         # check for quit:
         if "escape" in theseKeys:
