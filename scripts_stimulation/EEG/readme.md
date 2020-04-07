@@ -1,1 +1,0 @@
-# EEG paradigm & script
