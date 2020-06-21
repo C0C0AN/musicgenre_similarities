@@ -27,8 +27,7 @@ optseq2 --ntp 474 \
 	--ev stimulus20 6 2 \
 	--tnullmin 4 \
 	--tnullmax 8 \
-	--nkeep 1 \
+	--nkeep 8 \
 	--focb nCB1Opt \
-	--o test \
+	--o NC2U_design \
 	--nsearch 10000
-
