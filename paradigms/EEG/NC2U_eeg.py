@@ -166,7 +166,7 @@ sample.setVolume(1)
 movie = visual.MovieStim3(
     win=win, name='movie',units='pix',
     noAudio = True,
-    filename='C:\Users\D01067\Peer\NC2U\\visual_stimuli\movie001.mkv',
+    filename='NC2U\\visual_stimuli\movie001.mkv',
     ori=0, pos=(0, 0), opacity=1,
     depth=0.0,)
 
